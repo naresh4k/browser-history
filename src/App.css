@@ -47,7 +47,8 @@ body {
 .header > div img {
   border-right: 1px solid white;
   padding: 3px 10px;
-  width: 40px;
+  width: 45px;
+  height: 33px;
 }
 input {
   width: 100%;
