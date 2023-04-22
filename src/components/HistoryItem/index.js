@@ -13,7 +13,7 @@ const HistoryItem = props => {
         <p className="time">{timeAccessed}</p>
         <img className="media-icon" alt="domain logo" src={logoUrl} />
         <p className="title">{title}</p>
-        <p>{domainUrl}</p>
+        <p className="domine">{domainUrl}</p>
       </div>
       <button data-testid="delete" type="button" onClick={onDeleteClick}>
         <img
